@@ -4,13 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Git</title>
+    <title>Portfolio - Kamthorn Sarawan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Kamthorn Sarawan</h1>
+            <p class="text-lg">Welcome to my portfolio</p>
+        </div>
+    </header>
 
-    <h1>Kamthorn Sarawan</h1>
+    <main class="container mx-auto my-8 px-4">
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p class="text-gray-700">
+                Hello! I'm Kamthorn Sarawan, a passionate developer with expertise in building modern web applications.
+            </p>
+        </section>
 
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Project 1</h3>
+                        <p class="text-gray-600">Description of project 1.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Project 2</h3>
+                        <p class="text-gray-600">Description of project 2.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Project 3</h3>
+                        <p class="text-gray-600">Description of project 3.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Contact</h2>
+            <p class="text-gray-700">Feel free to reach out to me at <a href="mailto:example@example.com"
+                    class="text-blue-600 underline">example@example.com</a>.</p>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Kamthorn Sarawan. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
